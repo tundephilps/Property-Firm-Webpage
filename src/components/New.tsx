@@ -3,7 +3,7 @@ import Chatbot from "../components/Chatbot";
 
 const PropertyListing = () => {
   return (
-    <section className="bg-[#020d24] bg-cover bg-center bg-no-repeat text-white">
+    <section className="bg-[#FFD750] bg-cover bg-center bg-no-repeat text-white">
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
         <div className="flex flex-col items-center">
           <div className="mb-8 max-w-[800px] text-center md:mb-12 lg:mb-16">
@@ -20,7 +20,7 @@ const PropertyListing = () => {
           <div className="mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mb-16 md:grid-cols-3 lg:mb-20">
             <Link
               to="PropertyDetails"
-              className="flex flex-col gap-4 rounded-md bg-[#07132d] px-4 py-8 text-white md:p-4"
+              className="flex flex-col gap-4 rounded-md bg-[#CCAA00] px-4 py-8 text-white md:p-4"
             >
               <div className="relative h-full w-full">
                 <img
@@ -70,7 +70,7 @@ const PropertyListing = () => {
 
             <Link
               to="PropertyDetails"
-              className="flex flex-col gap-4 rounded-md bg-[#07132d] px-4 py-8 text-white md:p-4"
+              className="flex flex-col gap-4 rounded-md bg-[#CCAA00] px-4 py-8 text-white md:p-4"
             >
               <div className="relative h-full w-full">
                 <img
@@ -120,7 +120,7 @@ const PropertyListing = () => {
 
             <Link
               to="PropertyDetails"
-              className="flex flex-col gap-4 rounded-md bg-[#07132d] px-4 py-8 text-white md:p-4"
+              className="flex flex-col gap-4 rounded-md bg-[#CCAA00] px-4 py-8 text-white md:p-4"
             >
               <div className="relative h-full w-full">
                 <img

@@ -18,8 +18,8 @@ const FAQ = () => {
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-[528px] text-[#636262]">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-            aliquam,purus sit amet luctus magna fringilla urna
+            These are some of the questions our clients randomly ask and will
+            guide you into undestanding how we operate
           </p>
         </div>
 

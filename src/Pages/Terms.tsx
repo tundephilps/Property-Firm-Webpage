@@ -4,7 +4,7 @@ const Terms = () => {
   return (
     <section className="overflow-hidden">
       <div className="flex-col flex items-center justify-center px-5 md:px-10 w-screen">
-        <div className="flex-col flex w-screen  items-center bg-[#f2f2f7] py-16 sm:py-20 ">
+        <div className="flex-col flex w-screen  items-center bg-orange-100 py-8 lg:py-2 ">
           <div className="grid max-w-5xl flex-col items-start max-[991px]:min-w-full max-[991px]:gap-y-10 max-[767px]:gap-y-8 max-[479px]:gap-y-7 max-[991px]:px-10 max-[767px]:px-5 grid-cols-1 lg:grid-cols-2">
             <div className="flex-col flex items-start gap-y-4 self-center max-[991px]:max-w-[70%] max-[479px]:max-w-full py-5">
               <h1 className="font-bold text-3xl md:text-5xl">
@@ -15,11 +15,11 @@ const Terms = () => {
                 responsibilities as a Tulet Oaks Customer.
               </div>
             </div>
-            <div className="flex max-w-[590px] items-center justify-center object-cover max-[991px]:max-w-none max-[991px]:overflow-hidden max-[479px]:h-auto max-[991px]:w-96 min-h-[auto] min-w-full lg:min-h-[500px]">
+            <div className="flex lg:max-w-[600px] w-[450px] items-center justify-center object-cover  lg:min-h-[400px]">
               <img
                 src="https://media.edgeprop.my/s3fs-public/editorial/my/2023/May/13/propertiesinfocus.jpeg"
                 alt=""
-                className="inline-block w-full object-cover"
+                className="inline-block w-[100%] object-cover"
               />
             </div>
           </div>

@@ -13,7 +13,7 @@ const testimonialData: TestimonialData[] = [
   {
     text: "Outstanding service! The Tulet real estate  made finding our dream home a breeze. Professional, efficient, and reliable.",
     author: "Tayo",
-    position: "Designer",
+    position: "Lawyer",
     imageSrc: tayo,
   },
   {
@@ -33,7 +33,7 @@ const testimonialData: TestimonialData[] = [
 
 const Testimonial = () => {
   return (
-    <section className="bg-[#020d24] text-white">
+    <section className="bg-orange-300 text-white">
       <div className="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
         <div className="flex flex-col items-center">
           <div className="mb-8 w-full md:mb-12 lg:mb-16">
@@ -53,7 +53,7 @@ const Testimonial = () => {
             {testimonialData.map((testimonial, index) => (
               <div
                 key={index}
-                className="grid gap-6 rounded-lg bg-[#07132d] p-8"
+                className="grid gap-6 rounded-lg bg-orange-600 p-8"
               >
                 <div className="flex items-center justify-between text-[#2d6ae0]">
                   <div className="flex text-[#2d6ae0]">
@@ -74,7 +74,7 @@ const Testimonial = () => {
                       </div>
                     ))}
                   </div>
-                  <p className="text-[#7c8aaa] text-sm">
+                  <p className="text-[#636262] text-sm">
                     {testimonial.position}
                   </p>
                 </div>
@@ -89,7 +89,7 @@ const Testimonial = () => {
                     <p className="font-semibold text-white">
                       {testimonial.author}
                     </p>
-                    <p className="text-sm text-[#7c8aaa]">
+                    <p className="text-sm text-[#636262]">
                       {testimonial.position}
                     </p>
                   </div>

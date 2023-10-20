@@ -24,7 +24,7 @@ const Chatbot = () => {
           1
         </div>
         <div
-          className="bg-slate-800 h-16 w-16 rounded-full absolute flex items-center justify-center "
+          className="bg-orange-900 h-16 w-16 rounded-full absolute flex items-center justify-center "
           data-number={whatsappNumber}
           data-message="Hello, I have a question"
           onClick={startWhatsAppChat}

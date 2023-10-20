@@ -9,8 +9,8 @@ const ContactUs = () => {
             <h2 className="font-bold text-3xl md:text-5xl">Contact Sales</h2>
             <div className="mx-auto mt-4 max-w-[528px] mb-8 md:mb-12 lg:mb-16">
               <div className="text-[#636262]">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam,purus sit amet luctus magna fringilla urna
+                React out to us by sending us a mail if you have any inquiry or
+                further questions about our business.
               </div>
             </div>
             <div className="mx-auto text-left mb-4 px-0 sm:px-4 md:px-20">
@@ -82,7 +82,7 @@ const ContactUs = () => {
                 <input
                   type="submit"
                   value="Send Message"
-                  className="m-0 inline-block w-full cursor-pointer items-center bg-black px-6 py-3 text-center font-semibold text-white"
+                  className="m-0 inline-block w-full cursor-pointer items-center bg-indigo-600 px-6 py-3 text-center font-semibold text-white"
                 />
               </form>
             </div>

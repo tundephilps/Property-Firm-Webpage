@@ -28,7 +28,7 @@ const NewsLetter = () => {
               <input
                 type="submit"
                 value="Subscribe"
-                className="m-0 inline-block cursor-pointer bg-[#276ef1] px-6 py-3 text-center font-semibold text-white transition [box-shadow:rgb(171,_196,_245)_-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px] max-[479px]:relative max-[479px]:right-0 max-[479px]:w-full"
+                className="m-0 inline-block cursor-pointer bg-indigo-600 px-6 py-3 text-center font-semibold text-white transition [box-shadow:rgb(171,_196,_245)_-8px_8px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px] max-[479px]:relative max-[479px]:right-0 max-[479px]:w-full"
               />
               <div></div>
               <div></div>

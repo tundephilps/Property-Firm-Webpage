@@ -10,7 +10,7 @@ const MobileHeader = () => {
   };
   return (
     <section className="block lg:hidden">
-      <div className=" bg-[#020d24] py-2 text-white [border-bottom:1px_solid_rgb(91,_103,_130)]">
+      <div className=" bg-orange-300 py-2 text-white [border-bottom:1px_solid_rgb(91,_103,_130)]">
         <nav className="font-inter mx-auto h-auto  lg:relative lg:top-0">
           <div className="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20">
             <Link to="#">
@@ -78,7 +78,7 @@ const MobileHeader = () => {
                 </Link>
                 <Link
                   to="/PropertyListing"
-                  className="2 ml-5 rounded-full bg-[#081631] px-6 py-4 text-center font-semibold text-white transition hover:bg-[#2d6ae0] md:ml-10 lg:ml-4"
+                  className="2 ml-5 rounded-full bg-orange-600 px-6 py-4 text-center font-semibold text-white transition hover:bg-[#2d6ae0] md:ml-10 lg:ml-4"
                 >
                   Property Listings
                 </Link>

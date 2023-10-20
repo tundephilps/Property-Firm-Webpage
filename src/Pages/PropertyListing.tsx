@@ -23,10 +23,10 @@ const properties: Property[] = [
     agentName: "Agent Tunji",
     postedDate: "1/09/23",
     mode: "Avaliable",
-    bgColor: "#2d6ae01a",
-    color: "#2d6ae0",
+    bgColor: "#E01A2D1A",
+    color: "#E01A2D",
     description:
-      "One Acre of land situated at Ajia oketo Near Oluwo AArea, Ona Ara Local Government Area, Ibadan, Oyo State, Nigeria",
+      "Several Acres of land situated at Ajia oketo Near Oluwo AArea, Ona Ara Local Government Area, Ibadan, Oyo State, Nigeria",
   },
   {
     type: "Rental",
@@ -50,8 +50,8 @@ const properties: Property[] = [
     agentName: "Agent Lola",
     postedDate: "6 mins ago",
     mode: "Sold",
-    bgColor: "#31b3d21f",
-    color: "#31b3d2",
+    bgColor: "#6A2DE01A",
+    color: "#6A2DE0",
     description:
       "2 bedroom,  2 toilets, 400sq compound, fully aircondtioned with 24hrs electrcity avaliable for short let",
   },
@@ -59,11 +59,11 @@ const properties: Property[] = [
 
 const PropertyListing = () => {
   return (
-    <section className="bg-[#020d24] bg-cover bg-center bg-no-repeat text-white">
+    <section className="bg-orange-100 bg-cover bg-center bg-no-repeat text-white">
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
         <div className="flex flex-col items-center">
           <div className="mb-8 max-w-[800px] text-center md:mb-12 lg:mb-16">
-            <h2 className="text-3xl font-bold md:text-5xl">
+            <h2 className="text-3xl font-bold md:text-5xl text-indigo-800">
               The latest properties on our Portfolio
             </h2>
             <div className="mx-auto mt-4 max-w-[528px]">
@@ -77,7 +77,7 @@ const PropertyListing = () => {
             {properties.map((property, index) => (
               <Link
                 to={"/PropertyDetails/:id"} // Include the property ID in the URL
-                className="flex flex-col gap-4 rounded-md bg-[#07132d] px-4 py-8 text-white md:p-4"
+                className="flex flex-col gap-4 rounded-md bg-orange-600 px-4 py-8 text-white md:p-4"
                 key={index}
               >
                 <div className="relative h-full w-full">
@@ -123,10 +123,10 @@ const PropertyListing = () => {
                         {property.agentName}
                       </h6>
                       <div className="flex items-start lg:items-center">
-                        <p className="ml-2 mr-2 text-sm text-[#636262] max-[991px]:hidden">
+                        <p className="ml-2 mr-2 text-sm text-gray max-[991px]:hidden">
                           -
                         </p>
-                        <p className="text-xs font-medium text-[#7c8aaa]">
+                        <p className="text-xs font-medium text-gray">
                           Posted {property.postedDate}
                         </p>
                       </div>
@@ -138,7 +138,7 @@ const PropertyListing = () => {
           </div>
           <a
             href="#"
-            className="rounded-full bg-[#2d6ae0] px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]"
+            className="rounded-full bg-indigo-700 px-6 py-4 text-center font-bold text-white transition hover:bg-[#081631]"
           >
             Load More Properties
           </a>
