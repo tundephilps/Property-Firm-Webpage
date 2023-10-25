@@ -9,11 +9,11 @@ const Results = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-4 lg:gap-6 justify-items-center sm:justify-items-stretch">
           <div className="relative grid grid-flow-row grid-cols-1 gap-4 bg-white rounded-md p-8 md:p-10">
-            <h3 className="font-bold text-3xl md:text-5xl">$1.5M</h3>
+            <h3 className="font-bold text-3xl md:text-5xl">N150M</h3>
             <div className="text-[#636262] text-sm sm:text-sm">
-              Our commitment to excellence has resulted in a profit of $1.5
-              million, showcasing our dedication to financial success and
-              sustainable growth
+              Our commitment to excellence has resulted in a profit of over 150
+              Million in Naira thus far, showcasing our dedication to financial
+              success and sustainable growth.
             </div>
             <div className="right-0absolute right-0 top-[29%] h-2/5 [border-right:1px_solid_rgb(230,_230,_230)] max-[479px]:hidden"></div>
           </div>

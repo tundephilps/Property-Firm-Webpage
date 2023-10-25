@@ -8,7 +8,8 @@ const NewsLetter = () => {
           </h3>
           <div>
             <p className="max-w-md text-[#647084]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Subscribe to our NewsLetter to get the latest updates and info on
+              our Company and Properties Avaliable...
             </p>
           </div>
         </div>
